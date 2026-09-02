@@ -6,4 +6,4 @@ def linear_combination(vectors, coefficients):
     """
     vectors = np.array(vectors)
     coefficients = np.array(coefficients)
-    return np.sum(coefficients[:, np.newaxis] * vectors, axis=0)
+    return np.sum(coefficients[:, None] * vectors, axis=0)
