@@ -89,6 +89,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Cosine Annealing with Warm Restarts | Train with cosine-annealed learning rates that periodically restart at the configured maximum value. | https://www.tensortonic.com/problems/optim-cosine-restarts |
 | Classify a Critical Point from the Hessian | Classify a stationary point as a minimum, maximum, or saddle from the eigenvalues of its Hessian. | https://www.tensortonic.com/problems/optim-critical-point-classification |
 | Dropout from Scratch | Train a two-layer NumPy classifier with inverted dropout and report held-out accuracy after every epoch. | https://www.tensortonic.com/problems/optim-dropout |
+| Early Stopping | Apply patience-based early stopping to validation losses and return the best epoch, value, and stopping point. | https://www.tensortonic.com/problems/optim-early-stopping |
 | Gradient Accumulation | Implement mini-batch SGD with and without gradient accumulation on a linear regression task, and compare the training dynamics. | https://www.tensortonic.com/problems/optim-grad-accum |
 | Linear Warmup | Train with a learning rate that increases linearly during warmup and remains constant for later gradient steps. | https://www.tensortonic.com/problems/optim-linear-warmup |
 | Learning Rate Sweep | Implement a learning rate sweep that trains a linear model on the given data with multiple learning rates and returns the loss curve for each. | https://www.tensortonic.com/problems/optim-lr-sweep |
