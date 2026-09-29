@@ -22,7 +22,7 @@ def newtons_method(X: list, y: list, lr_gd: float, n_iters: int) -> dict:
         w_v = w_v - lr_gd * gv
 
         gn = (2 / X.shape[0]) * X.T @ (X @ w_n - y)
-        w_n = w_n - np.linalg.solve(H, gn)
+        w_n = w_n - np.linalg.pinv(H) @ gn
 
         gd_losses.append(np.mean((X @ w_v - y) ** 2))
         newton_losses.append(np.mean((X @ w_n - y) ** 2))      
